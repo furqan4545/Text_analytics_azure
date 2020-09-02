@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Furqan</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
+  
+  </head>
+  <body>
+    <div class="testbox">
+      <form action="" id="mydatas" method="POST" enctype=multipart/form-data>
+        <div class="banner">
+          <h1>Azure Text Analytics</h1>
+        </div>
+        <p>Let's test the API's</p>
+        <div class="item">
+          <label for="name">Enter the document<span>*</span></label>
+          <input id="doc1" type="text" name="doc1" required/>
+        </div>
+        <p>Let's try language detection</p>
+        <div class="item">
+          <label for="email">Enter the document 2<span>*</span></label>
+          <input id="doc2" type="text" name="doc2" required/>
+        </div>
+
+        <div class="columns" id = "m_data">
+            <p id="bott">Your sentence is: </p>
+            <p id="packs"></p>
+        </div>
+
+
+        <!-- <div class="item">
+          <label for="address">Address<span>*</span></label>
+          <input id="address" type="address" name="address" required/>
+        </div>
+        <div class="item">
+          <label for="city">City<span>*</span></label>
+          <input id="city" type="text" name="city" required/>
+        </div>
+        <div class="item">
+          <label for="state">State<span>*</span></label>
+          <input id="state" type="text" name="state" required/>
+        </div>
+        <div class="item">
+          <label for="zip">Zip<span>*</span></label>
+          <input id="zip" type="text" name="zip" required/>
+        </div>
+        <div class="item">
+          <label for="phone">Phone<span>*</span></label>
+          <input id="phone" type="number" name="phone" required/>
+        </div> -->
+
+
+
+        <!-- Do not touch below work -->
+
+        <!-- <div class="item">
+          <label for="bdate">Date of Birth<span>*</span></label>
+          <input id="bdate" type="date" name="bdate" required/>
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+        <div class="question">
+          <label>Gender</label>
+          <div class="question-answer">
+            <div>
+              <input type="radio" value="none" id="radio_1" name="gender"/>
+              <label for="radio_1" class="radio"><span>Male</span></label>
+            </div>
+            <div>
+              <input  type="radio" value="none" id="radio_2" name="gender"/>
+              <label for="radio_2" class="radio"><span>Female</span></label>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <p>T-Shirt Size</p>
+          <select>
+            <option selected value="" disabled selected></option>
+            <option value="course-type" >Small</option>
+            <option value="short-courses">Medium</option>
+            <option value="featured-courses">Large</option>
+            <option value="undergraduate">Extra Large</option>
+          </select>
+        </div>
+        <div class="question">
+          <label>Choose Race</label>
+          <div class="question-answer">
+            <div>
+              <input type="radio" value="none" id="radio_3" name="race"/>
+              <label for="radio_3" class="radio"><span>5k - $25</span></label>
+            </div>
+            <div>
+              <input  type="radio" value="none" id="radio_4" name="race"/>
+              <label for="radio_4" class="radio"><span>10K - $25</span></label>
+            </div>
+          </div>
+        </div> -->
+        <div class="btn-block">
+            <button type="submit" id="submit">Let's try</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="static/js/app.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+
+  </body>
+</html>

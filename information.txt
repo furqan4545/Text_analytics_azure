@@ -1,0 +1,21 @@
+for runing jupyter notebook in pyenv with your installed packages, you need to create
+a virtual environment inside pyenv then u can run jupyter notebook with your desire packages
+For this you can follow this blog
+https://gist.github.com/lucsantos1975/4833ec180e8683d19413d03713616a66
+Or
+https://medium.com/@henriquebastos/the-definitive-guide-to-setup-my-python-workspace-628d68552e14
+
+Steps: You need to carry out following steps for creating environement inside pyenv
+
+1: pyenv virtualenv <PYTHON VERSION> jupyter3
+
+Now for activating the environement type following 
+2: pyenv activate jupyter3
+
+and now install jupyter notebook and other packages
+3:
+pip install jupyter
+python -m ipykernel install --user
+
+For deactivating the environment u can type following
+pyenv deactivate
